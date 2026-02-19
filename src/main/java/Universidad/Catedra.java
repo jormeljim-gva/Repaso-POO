@@ -2,10 +2,10 @@ package Universidad;
 
 public class Catedra {
     private String nombre;
-    private Departamento departamento;
+    private DepartamentoUni departamento;
     private Facultat facultat;
 
-    public Catedra(String nombre, Departamento departamento, Facultat facultat) {
+    public Catedra(String nombre, DepartamentoUni departamento, Facultat facultat) {
         this.nombre = nombre;
         this.departamento = departamento;
         departamento.getCatedras().add(this);

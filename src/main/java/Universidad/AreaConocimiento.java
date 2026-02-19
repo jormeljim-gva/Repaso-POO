@@ -5,7 +5,7 @@ import java.util.List;
 
 public class AreaConocimiento {
     private String nombre;
-    private List<Departamento> departamentos = new ArrayList<>();
+    private List<DepartamentoUni> departamentos = new ArrayList<>();
 
     public AreaConocimiento(String nombre) {
         this.nombre = nombre;
@@ -19,7 +19,7 @@ public class AreaConocimiento {
         this.nombre = nombre;
     }
 
-    public List<Departamento> getDepartamentos() {
+    public List<DepartamentoUni> getDepartamentos() {
         return departamentos;
     }
 

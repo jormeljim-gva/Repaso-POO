@@ -2,9 +2,9 @@ package Universidad;
 
 public class Profesor {
     private String nombreProfesor;
-    private Departamento departamento;
+    private DepartamentoUni departamento;
 
-    public Profesor(String nombre, Departamento departamento) {
+    public Profesor(String nombre, DepartamentoUni departamento) {
         this.nombreProfesor = nombre;
         this.departamento = departamento;
     }

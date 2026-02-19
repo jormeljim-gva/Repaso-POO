@@ -3,13 +3,13 @@ package Universidad;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Departamento {
+public class DepartamentoUni {
     private String nombre;
     private AreaConocimiento areaConocimiento;
     private List<Catedra> catedras = new ArrayList<>();
     private List<Profesor> profesores = new ArrayList<>();
 
-    public Departamento(String nombre, AreaConocimiento areaConocimiento) {
+    public DepartamentoUni(String nombre, AreaConocimiento areaConocimiento) {
         this.nombre = nombre;
         this.areaConocimiento = areaConocimiento;
     }
